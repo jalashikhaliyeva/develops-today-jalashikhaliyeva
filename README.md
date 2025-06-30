@@ -47,32 +47,40 @@ Responsive navigation with nested structure:
 
 ### Input Component States
 
-![Input Component - Default State](./images/screenshots/input-default.png)
+![Input Component - Default State]<img width="1470" alt="input-default" src="https://github.com/user-attachments/assets/cb67c479-55d6-4c26-a718-a4e55f026854" />
+
 _Default text input with placeholder_
 
-![Input Component - Password Toggle](./images/screenshots/input-password.png)
+![Input Component - Password Toggle] <img width="1470" alt="Screenshot 2025-06-30 at 16 29 30" src="https://github.com/user-attachments/assets/cc58a58a-4978-4d36-8a21-dac940731dd9" />
+
 _Password input with visibility toggle_
 
-![Input Component - Clearable](./images/screenshots/input-clearable.png)
+![Input Component - Clearable] <img width="1470" alt="Screenshot 2025-06-30 at 16 30 16" src="https://github.com/user-attachments/assets/89c5bef4-bd6a-43ac-969b-b9cd307d6b4c" />
+
 _Input with clear button functionality_
 
 ### Toast Component Variants
 
-![Toast Component - Success](./images/screenshots/toast-success.png)
-_Success toast notification_
+![Toast Component - Success] 
+_Success toast notification_<img width="1470" alt="Screenshot 2025-06-30 at 16 30 56" src="https://github.com/user-attachments/assets/553562ce-8eb3-41d2-bcd8-a33e8924dff6" />
 
-![Toast Component - Error](./images/screenshots/toast-error.png)
+
+![Toast Component - Error] <img width="1467" alt="Screenshot 2025-06-30 at 16 31 07" src="https://github.com/user-attachments/assets/402afaf2-d643-4228-8eac-cfabda766bf4" />
+
 _Error toast with manual close_
 
-![Toast Component - Multiple](./images/screenshots/toast-multiple.png)
+![Toast Component - Multiple]<img width="1469" alt="Screenshot 2025-06-30 at 16 31 30" src="https://github.com/user-attachments/assets/672a77db-89a6-4ff2-b6c5-5683a2c9c011" />
+
 _Multiple toast notifications stacked_
 
 ### Sidebar Menu Component
+<img width="1470" alt="Screenshot 2025-06-30 at 16 31 48" src="https://github.com/user-attachments/assets/49d6ca64-c478-4236-8389-c48e8a10497e" />
 
-![Sidebar Menu - Closed](./images/screenshots/sidebar-closed.png)
+![Sidebar Menu - Closed]
 _Sidebar in closed state_
 
-![Sidebar Menu - Open](./images/screenshots/sidebar-open.png)
+![Sidebar Menu - Open]<img width="1470" alt="Screenshot 2025-06-30 at 16 32 09" src="https://github.com/user-attachments/assets/b18340a2-e253-4dd6-a7b3-eb4bc849f9b4" />
+
 _Sidebar with nested menu expanded_
 
 
