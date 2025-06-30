@@ -75,16 +75,7 @@ _Sidebar in closed state_
 ![Sidebar Menu - Open](./images/screenshots/sidebar-open.png)
 _Sidebar with nested menu expanded_
 
-![Sidebar Menu - Nested](./images/screenshots/sidebar-nested.png)
-_Multi-level nested menu structure_
 
-### Storybook Interface
-
-![Storybook Overview](./images/screenshots/storybook-overview.png)
-_Storybook interface showing all components_
-
-![Storybook Controls](./images/screenshots/storybook-controls.png)
-_Interactive controls panel for live editing_
 
 ## 🛠️ Technical Stack
 
