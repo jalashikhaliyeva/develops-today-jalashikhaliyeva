@@ -1,4 +1,3 @@
-// src/components/sections/ComponentsShowcase.tsx - CLEAN VERSION
 import { FormDemo } from "@/components/demos/FormDemo";
 import { ToastDemo } from "@/components/demos/ToastDemo";
 

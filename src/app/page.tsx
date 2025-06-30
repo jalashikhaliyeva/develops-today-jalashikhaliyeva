@@ -1,7 +1,16 @@
-// app/page.tsx - SIMPLIFIED AND CLEAN
-import { HeroSection } from '@/components/sections/HeroSection';
-import { ComponentsShowcase } from '@/components/sections/ComponentsShowcase';
-import { FeaturesSection } from '@/components/sections/FeaturesSection';
+import { Metadata } from "next";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { ComponentsShowcase } from "@/components/sections/ComponentsShowcase";
+import { FeaturesSection } from "@/components/sections/FeaturesSection";
+
+export const metadata: Metadata = {
+  title: "Jala Shikhaliyeva - DevelopsToday",
+  description:
+    "Welcome to my amazing application with cutting-edge features and components.",
+  icons: {
+    icon: "/images/developstoday-logo.jpeg",
+  },
+};
 
 export default function HomePage() {
   return (
