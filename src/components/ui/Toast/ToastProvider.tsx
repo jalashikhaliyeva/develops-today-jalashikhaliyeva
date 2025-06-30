@@ -78,7 +78,7 @@ export const ToastProvider: React.FC<ToastProviderProps> = ({
       {mounted && createPortal(
         <div 
           className={cn(
-            'fixed z-50 flex flex-col space-y-2 pointer-events-none',
+            'fixed z-10 flex flex-col space-y-2 pointer-events-none',
             positionClasses[position]
           )}
           aria-live="polite"

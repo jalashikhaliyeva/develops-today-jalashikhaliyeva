@@ -95,25 +95,25 @@ const ToastDemo = () => {
     <div className="space-y-2">
       <button
         onClick={() => toast.success('Success message!')}
-        className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
+        className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 cursor-pointer"
       >
         Show Success
       </button>
       <button
         onClick={() => toast.error('Error message!')}
-        className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
+        className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 cursor-pointer"
       >
         Show Error
       </button>
       <button
         onClick={() => toast.warning('Warning message!')}
-        className="px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600"
+        className="px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600 cursor-pointer"
       >
         Show Warning
       </button>
       <button
         onClick={() => toast.info('Info message!')}
-        className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+        className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 cursor-pointer"
       >
         Show Info
       </button>

@@ -205,7 +205,7 @@ export const Input = forwardRef<InputRef, InputProps>(({
               <button
                 type="button"
                 onClick={handleClear}
-                className="text-gray-400 hover:text-gray-600 transition-colors p-1 hover:bg-gray-100 rounded"
+                className="text-gray-400 hover:text-gray-600 transition-colors p-1 hover:bg-gray-100 rounded cursor-pointer"
                 tabIndex={-1}
               >
                 <X size={16} />
@@ -217,7 +217,7 @@ export const Input = forwardRef<InputRef, InputProps>(({
               <button
                 type="button"
                 onClick={togglePasswordVisibility}
-                className="text-gray-400 hover:text-gray-600 transition-colors p-1 hover:bg-gray-100 rounded"
+                className="text-gray-400 hover:text-gray-600 transition-colors p-1 hover:bg-gray-100 rounded cursor-pointer"
                 tabIndex={-1}
               >
                 {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}

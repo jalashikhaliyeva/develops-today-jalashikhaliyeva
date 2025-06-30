@@ -1,11 +1,7 @@
-// src/components/layout/Header.tsx
 'use client';
 
 import { Menu, Github } from 'lucide-react';
-
-interface HeaderProps {
-  onMenuClick: () => void;
-}
+import { HeaderProps } from '@/types';
 
 export const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
   return (
@@ -20,14 +16,14 @@ export const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
           <div className="flex items-center space-x-4">
             <button
               onClick={onMenuClick}
-              className="flex items-center space-x-2 px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
+              className="flex items-center space-x-2 px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors cursor-pointer"
             >
               <Menu size={20} />
               <span className="hidden sm:block">Menu</span>
             </button>
             
             <a
-              href="https://github.com"
+              href="https://github.com/jalashikhaliyeva"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-600 hover:text-gray-900 transition-colors"

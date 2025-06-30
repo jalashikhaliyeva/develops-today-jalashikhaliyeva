@@ -113,7 +113,7 @@ export const SidebarMenu: React.FC<SidebarMenuProps> = ({
           <button
             onClick={onClose}
             className={cn(
-              'p-2 hover:bg-gray-100 rounded-lg transition-colors',
+              'p-2 hover:bg-gray-100 rounded-lg transition-colors cursor-pointer',
               'focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2'
             )}
             aria-label="Close menu"

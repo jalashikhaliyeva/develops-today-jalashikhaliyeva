@@ -1,10 +1,4 @@
-import { ReactNode } from "react";
-
-interface FloatingElementProps {
-  delay: number;
-  duration: number;
-  children: ReactNode;
-}
+import { FloatingElementProps, AnimatedBackgroundProps } from "@/types";
 
 const FloatingElement = ({
   delay,
@@ -21,10 +15,6 @@ const FloatingElement = ({
     {children}
   </div>
 );
-
-interface AnimatedBackgroundProps {
-  mousePosition: { x: number; y: number };
-}
 
 export function AnimatedBackground({ mousePosition }: AnimatedBackgroundProps) {
   return (

@@ -109,7 +109,7 @@ const SidebarDemo = ({ position = 'right' as const, ...args }: { position?: 'lef
       <div className="p-8">
         <button
           onClick={() => setIsOpen(true)}
-          className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+          className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 cursor-pointer"
         >
           <Menu size={20} />
           <span>Open Sidebar ({position})</span>

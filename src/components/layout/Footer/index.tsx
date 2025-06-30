@@ -1,4 +1,3 @@
-// src/components/layout/Footer.tsx
 import { Github, ExternalLink, Heart } from 'lucide-react';
 
 export const Footer: React.FC = () => {
@@ -19,7 +18,7 @@ export const Footer: React.FC = () => {
             </p>
             <div className="flex items-center space-x-4">
               <a
-                href="https://github.com"
+                href="https://github.com/jalashikhaliyeva"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -27,7 +26,7 @@ export const Footer: React.FC = () => {
                 <Github size={20} />
               </a>
               <a
-                href="http://localhost:6006"
+                href="https://jala-shikhaliyeva-portfolio.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -65,7 +64,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li>
                 <a 
-                  href="http://localhost:6006" 
+                  href="https://jala-shikhaliyeva-portfolio.vercel.app/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors"
@@ -113,7 +112,7 @@ export const Footer: React.FC = () => {
           <div className="flex items-center space-x-2 text-gray-400">
             <span>Built with</span>
             <Heart size={16} className="text-red-500" />
-            <span>for the React community</span>
+            <span>for the DevelopsToday</span>
           </div>
           <div className="text-gray-400 mt-4 md:mt-0">
             © 2025 Component Library. All rights reserved.

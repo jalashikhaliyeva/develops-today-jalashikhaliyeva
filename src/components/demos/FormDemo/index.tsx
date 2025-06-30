@@ -1,23 +1,9 @@
-// src/components/demos/FormDemo.tsx
 "use client";
 
 import { useState, useRef } from "react";
 import { Input, useToast } from "@/components/ui";
 import { InputRef } from "@/components/ui/Input/Input";
-
-interface FormData {
-  username: string;
-  email: string;
-  password: string;
-  phone: string;
-}
-
-interface FormErrors {
-  username?: string;
-  email?: string;
-  password?: string;
-  phone?: string;
-}
+import { FormData, FormErrors } from "@/types";
 
 export const FormDemo: React.FC = () => {
   const toast = useToast();
@@ -112,7 +98,6 @@ export const FormDemo: React.FC = () => {
     setErrors((prev) => ({ ...prev, [field]: error }));
   };
 
-  // Check if field is valid (only show success after validation has run)
   const isFieldValid = (field: keyof FormData): boolean => {
     if (!touched[field] || formData[field].length === 0) return false;
 
@@ -138,9 +123,7 @@ export const FormDemo: React.FC = () => {
     return isValid;
   };
 
-  // Submit form
   const handleSubmit = () => {
-    // Validate all fields
     const newErrors: FormErrors = {
       username: validateUsername(formData.username),
       email: validateEmail(formData.email),
@@ -198,7 +181,7 @@ export const FormDemo: React.FC = () => {
   };
 
   return (
-    <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 z-50">
+    <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 z-10">
       <h3 className="text-2xl font-bold text-gray-900 mb-6">
         Smart Input Component
       </h3>
@@ -277,7 +260,7 @@ export const FormDemo: React.FC = () => {
         <div className="pt-4">
           <button
             onClick={handleSubmit}
-            className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors font-medium"
+            className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 cursor-pointer focus:ring-blue-500 focus:ring-offset-2 transition-colors font-medium"
           >
             Submit Form
           </button>

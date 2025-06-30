@@ -1,7 +1,4 @@
-interface AnimatedHeadingProps {
-  currentWordIndex: number;
-  words: string[];
-}
+import { AnimatedHeadingProps } from "@/types";
 
 export function AnimatedHeading({
   currentWordIndex,

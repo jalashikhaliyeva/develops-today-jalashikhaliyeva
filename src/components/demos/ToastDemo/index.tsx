@@ -60,34 +60,34 @@ export const ToastDemo: React.FC = () => {
   };
 
   return (
-    <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 z-50">
+    <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 z-10">
       <h3 className="text-2xl font-bold text-gray-900 mb-6">Toast Notifications</h3>
       
       <div className="grid grid-cols-2 gap-4 mb-6">
         <button
           onClick={showSuccessToast}
-          className="px-4 py-3 bg-green-100 text-green-800 rounded-lg hover:bg-green-200 transition-colors font-medium"
+          className="px-4 py-3 bg-green-100 text-green-800 rounded-lg hover:bg-green-200 transition-colors font-medium cursor-pointer"
         >
           Success Toast
         </button>
         
         <button
           onClick={showErrorToast}
-          className="px-4 py-3 bg-red-100 text-red-800 rounded-lg hover:bg-red-200 transition-colors font-medium"
+          className="px-4 py-3 bg-red-100 text-red-800 rounded-lg hover:bg-red-200 transition-colors font-medium cursor-pointer"
         >
           Error Toast
         </button>
         
         <button
           onClick={showWarningToast}
-          className="px-4 py-3 bg-yellow-100 text-yellow-800 rounded-lg hover:bg-yellow-200 transition-colors font-medium"
+          className="px-4 py-3 bg-yellow-100 text-yellow-800 rounded-lg hover:bg-yellow-200 transition-colors font-medium cursor-pointer"
         >
           Warning Toast
         </button>
         
         <button
           onClick={showInfoToast}
-          className="px-4 py-3 bg-blue-100 text-blue-800 rounded-lg hover:bg-blue-200 transition-colors font-medium"
+          className="px-4 py-3 bg-blue-100 text-blue-800 rounded-lg hover:bg-blue-200 transition-colors font-medium cursor-pointer"
         >
           Info with Action
         </button>
@@ -97,21 +97,21 @@ export const ToastDemo: React.FC = () => {
       <div className="grid grid-cols-1 gap-3 mb-6">
         <button
           onClick={showCustomToast}
-          className="px-4 py-2 bg-purple-100 text-purple-800 rounded-lg hover:bg-purple-200 transition-colors font-medium"
+          className="px-4 py-2 bg-purple-100 text-purple-800 rounded-lg hover:bg-purple-200 transition-colors font-medium cursor-pointer"
         >
           Custom Success with Action
         </button>
         
         <button
           onClick={showMultipleToasts}
-          className="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-lg hover:bg-indigo-200 transition-colors font-medium"
+          className="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-lg hover:bg-indigo-200 transition-colors font-medium cursor-pointer"
         >
           Show Multiple Toasts (Sequence)
         </button>
         
         <button
           onClick={() => toast.dismissAll()}
-          className="px-4 py-2 bg-gray-100 text-gray-800 rounded-lg hover:bg-gray-200 transition-colors font-medium"
+          className="px-4 py-2 bg-gray-100 text-gray-800 rounded-lg hover:bg-gray-200 transition-colors font-medium cursor-pointer"
         >
           Dismiss All Toasts
         </button>
