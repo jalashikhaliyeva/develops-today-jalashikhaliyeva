@@ -44,6 +44,13 @@ Responsive navigation with nested structure:
 - **Customizable icons**: Flexible icon integration
 
 ## 📸 Component Screenshots
+<img width="500" alt="Screenshot 2025-06-30 at 16 33 00" src="https://github.com/user-attachments/assets/7d0b7179-2596-45f4-b8f7-4516afc5409c" />
+
+<img width="500" alt="Screenshot 2025-06-30 at 16 33 13" src="https://github.com/user-attachments/assets/61696263-8cd7-430a-9a9d-81b8eab5df58" />
+
+<img width="500" alt="Screenshot 2025-06-30 at 16 33 40" src="https://github.com/user-attachments/assets/624025ac-c97d-4cf8-851e-3bf95386f390" />
+
+<img width="500" alt="Screenshot 2025-06-30 at 16 34 03" src="https://github.com/user-attachments/assets/e025bebe-2f24-483c-aba6-c2db522e9a68" />
 
 ### Input Component States
 
