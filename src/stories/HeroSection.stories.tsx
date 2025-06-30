@@ -1,18 +1,7 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { HeroSection } from '../components/sections/HeroSection/index';
 
-// Mock the toast hook for Storybook
-const mockToast = {
-  success: () => console.log('toast-success'),
-  error: () => console.log('toast-error'),
-  info: () => console.log('toast-info'),
-  warning: () => console.log('toast-warning'),
-};
-
-// Create a wrapper component that provides the mock toast
 const HeroSectionWithMockToast = () => {
-  // Mock the useToast hook by providing it through context or props
-  // For now, we'll just render the component and handle toast calls in the console
   return <HeroSection />;
 };
 
@@ -183,8 +172,8 @@ export const InteractiveShowcase: Story = {
           <ul style={{ margin: '5px 0', paddingLeft: '15px' }}>
             <li>Move mouse to see cursor trail</li>
             <li>Hover over buttons for animations</li>
-            <li>Click "Try Components" for toast</li>
-            <li>Click "Explore Storybook" to open localhost:6006</li>
+            <li>Click &quot;Try Components&quot; for toast</li>
+            <li>Click &quot;Explore Storybook&quot; to open localhost:6006</li>
           </ul>
         </div>
         <Story />

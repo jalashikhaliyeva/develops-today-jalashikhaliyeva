@@ -2,7 +2,6 @@ import { ExternalLink, Code, Zap, ArrowRight } from "lucide-react";
 import { ActionButtonsProps } from "@/types";
 
 export function ActionButtons({
-  isHovered,
   setIsHovered,
   toast,
 }: ActionButtonsProps) {

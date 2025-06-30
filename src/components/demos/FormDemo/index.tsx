@@ -149,8 +149,8 @@ export const FormDemo: React.FC = () => {
     if (hasErrors) {
       // Show error toast for each field with error
       const errorFields = Object.entries(newErrors)
-        .filter(([_, error]) => error !== undefined)
-        .map(([field, _]) => field);
+        .filter(([, error]) => error !== undefined)
+        .map(([field]) => field);
 
       toast.error(`Please fix errors in: ${errorFields.join(", ")}`, {
         title: "Form Validation Failed",

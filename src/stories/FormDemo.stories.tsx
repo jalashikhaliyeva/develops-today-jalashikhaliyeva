@@ -1,5 +1,5 @@
 // src/components/demos/FormDemo.stories.tsx
-import type { Meta, StoryObj } from "@storybook/react";
+import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { FormDemo } from "../components/demos/FormDemo/index";
 import { ToastProvider } from "@/components/ui/Toast";
 
